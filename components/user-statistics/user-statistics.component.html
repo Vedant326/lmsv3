@@ -1,0 +1,25 @@
+<p>user-statistics works!</p>
+
+
+
+<h2>User Statistics</h2>
+<table border="1">
+  <thead>
+    <tr>
+      <th>Book ID</th>
+      <th>Book Name</th>
+      <th>Borrow Date</th>
+      <th>Return Date</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stat of userStatistics">
+      <td>{{ stat.bookId }}</td>
+      <td>{{ stat.bookName }}</td>
+      <td>{{ stat.borrowDate }}</td>
+      <td>{{ stat.returnDate }}</td>
+      <td>{{ stat.rating }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,41 @@
+/* Ensure button is visible */
+.btn {
+    display: inline-block; /* Ensures button is not hidden */
+    visibility: visible;   /* Ensures button is not hidden */
+    opacity: 1;            /* Makes button fully visible */
+    text-align: center;    /* Centers text inside the button */
+    font-size: 16px;       /* Adjust text size */
+    padding: 10px 20px;    /* Adds padding */
+    border-radius: 5px;    /* Slightly rounded corners */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+  }
+  
+  /* Button hover effect */
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: white;
+  }
+  
+  /* Ensure the table is properly styled */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Add some spacing around the component */
+  .user-statistics-container {
+    padding: 20px;
+  }
+  
